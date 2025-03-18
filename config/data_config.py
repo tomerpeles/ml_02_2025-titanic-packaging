@@ -1,0 +1,1 @@
+data_file = 'data/titanic_data.csv'

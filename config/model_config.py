@@ -1,0 +1,1 @@
+model_path = 'models/v1/model_v1.pkl'
