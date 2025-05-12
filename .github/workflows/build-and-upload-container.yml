@@ -23,7 +23,7 @@ jobs:
         run: docker save titanic-packaging:latest -o titanic-packaging.tar
 
       - name: Upload container tarball
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: titanic-packaging-container
           path: titanic-packaging.tar
