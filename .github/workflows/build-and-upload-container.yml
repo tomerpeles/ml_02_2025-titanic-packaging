@@ -1,7 +1,7 @@
 name: Build & Upload Docker Container
 
 on:
-  push:
+  push: 
     branches:
       - main
 
